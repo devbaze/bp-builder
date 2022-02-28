@@ -45,7 +45,7 @@ class Builder
 
     public function build()
     {
-        $this->builder = apply_filters('mt_flexible_component_before_build', $this->builder);
+        $this->builder = apply_filters('bp_flexible_component_before_build', $this->builder);
         \acf_add_local_field_group($this->builder->build());
     }
 

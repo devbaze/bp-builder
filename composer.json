@@ -22,7 +22,7 @@
       ]
     },
     "files": [
-      "src/SageBuilder.php"
+      "src/BpBuilder.php"
     ]
   }
 }

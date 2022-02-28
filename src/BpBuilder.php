@@ -4,7 +4,7 @@ namespace Devbaze;
 
 use Illuminate\Console\Application as Console;
 
-class SageBuilder
+class BpBuilder
 {
     public function __construct()
     {
@@ -25,7 +25,7 @@ class SageBuilder
             'Devbaze\Commands\ConsolePublishBuilder',
             'Devbaze\Commands\ConsolePublishBaseFiles',
             'Devbaze\Commands\ConsolePublishAcf',
-            'Devbaze\Commands\ConsolePublishMt',
+            'Devbaze\Commands\ConsolePublishBp',
             'Devbaze\Commands\ConsoleAddBuilder',
         ];
 
@@ -40,4 +40,4 @@ class SageBuilder
     }
 }
 
-new SageBuilder();
+new BpBuilder();
