@@ -1,0 +1,28 @@
+{
+  "name": "devbaze/bp-builder",
+  "description": "My custom builder for acf and flex",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Benjamin Pelto",
+      "email": "benjophp@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.1",
+    "roots/acorn": "2.0.0-alpha.0",
+    "stoutlogic/acf-builder": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Devbaze\\": [
+        "src"
+      ]
+    },
+    "files": [
+      "src/SageBuilder.php"
+    ]
+  }
+}
